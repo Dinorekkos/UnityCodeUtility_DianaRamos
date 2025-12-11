@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using Dino.Utility.Audio;
+using Dino.UtilityTools.Singleton;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.Rendering;

@@ -1,5 +1,6 @@
 using System;
 using DG.Tweening;
+using Dino.Utility.Audio;
 using UnityEngine;
 
 //Legacy UI
@@ -74,7 +75,7 @@ namespace Dino.Utils
                 OnFinishedShowingWindow?.Invoke();
             });
             
-            AudioManager.Instance.PlaySound(AudioKeys.OPEN_WINDOW);
+            // AudioManager.Instance.PlaySound(AudioKeys.OPEN_WINDOW);
         }
 
         public virtual void HideWindow()
@@ -86,10 +87,14 @@ namespace Dino.Utils
                 OnFinishedHideWindow?.Invoke();
             });
             
-            AudioManager.Instance.PlaySound(AudioKeys.CLOSE_WINDOW);
+            // AudioManager.Instance.PlaySound(AudioKeys.CLOSE_WINDOW);
         }
 
         #endregion
 
+    }
+
+    public class AudioKeys
+    {
     }
 }
