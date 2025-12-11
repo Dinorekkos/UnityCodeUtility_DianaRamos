@@ -42,16 +42,15 @@ namespace Dino.Utility.Audio
                 set => _audioManagerData = value;
             }
             
-            // public bool IsInitialized { get; private set; }
-            // public UnityEvent OnFinishedInitialize { get; } = new UnityEvent();
 
             #region unity methods
-            
-            private void Awake()
+
+            protected override void Awake()
             {
+                base.Awake();
                 Initialize();
             }
-        
+            
             
             #endregion
 
@@ -68,8 +67,6 @@ namespace Dino.Utility.Audio
                 _audioSources = new List<AudioSource>();
                 _soundsContainer.transform.SetParent(transform);
                 PrepareLists();
-                // IsInitialized = true;
-                // OnFinishedInitialize?.Invoke();
             }
 
         
