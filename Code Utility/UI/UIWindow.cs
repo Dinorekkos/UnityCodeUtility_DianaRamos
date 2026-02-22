@@ -4,16 +4,19 @@ using UnityEngine.Events;
 namespace Dino.UtilityTools.UI
 { 
     /// <summary>
-    ///  Last update 31/08/2025 Dino
+    ///  Last update 21/02/2026 Dino
     /// This class represents a UI window in the UI system, providing functionality to show and hide the window.
     /// </summary>
     public class UIWindow : MonoBehaviour
     {
-        [Header("Settings")] [SerializeField] private string windowID;
+        [Header("UI Window")] 
+        [SerializeField] private string windowID;
         [SerializeField] private Canvas windowCanvas;
         [SerializeField] private CanvasGroup windowCanvasGroup;
 
-        [Header("Options")] [SerializeField] private bool hideOnStart = true;
+        [Header("Settings")] 
+        [SerializeField] private bool hideOnStart = true;
+        
 
         #region Events
 

@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Dino.UtilityTools.UI
 {
     /// <summary>
-    /// Last Update 31/08/2025 Dino
+    /// Last Update 21/02/2026 Dino
     /// Main class to manage all UI windows in the scene.
     /// It allows showing, hiding, and retrieving UI windows by their unique identifiers.
     /// </summary>
