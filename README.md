@@ -1,5 +1,6 @@
 # Dino Code Utility for Unity Projects
 Code I use to improve my unity development flow. This repo contains multiple base code to implement different systems.
+Hello
 ## Features
 - **Singleton Pattern**: A generic singleton class to ensure a single instance of a class.
 - **Audio Manager**: A simple audio manager to handle sound effects and music.
